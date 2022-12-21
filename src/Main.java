@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Veterinarian vet = new Veterinarian();
+        vet.setName("Sam");
+        Animal cat = new Cat();
+        Animal dog = new Dog();
+        vet.treatment(cat);
     }
 }
